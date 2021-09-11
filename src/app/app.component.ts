@@ -58,6 +58,7 @@ $scope.filterByGender = function(maleOrFemaleCheck) {
       if (people.gender == 'male') maleFilterList.push(people);
     });
     return maleFilterList;
+    
   }
 };
 $scope.searchByFirsNameLastNameEmail = function(searchString){
